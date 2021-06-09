@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions' /* 加上這個就能用layout的元件 */
 }
 
 android {
